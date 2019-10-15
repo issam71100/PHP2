@@ -12,6 +12,6 @@ namespace App\API\Controller;
 class HomepageController
 {
 	public function index(array $uriVars = []){
-		echo 'homepage' . $uriVars['id'];
+		echo 'homepage';
 	}
 }
