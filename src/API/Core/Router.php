@@ -6,7 +6,7 @@ namespace App\API\Core;
 class Router
 {
 	private $routes = [
-		'#^/$#' => [
+		'#^/(?<id>\d+)$#' => [
 			'controller' => 'controller.homepage',
 			'method' => 'index',
 		],
