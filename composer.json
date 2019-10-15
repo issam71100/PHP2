@@ -1,0 +1,18 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "name": "kaihatsu-sha/mini_project",
+  "authors": [
+    {
+      "name": "Issam Kadar",
+      "email": "issam.kadar@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "symfony/var-dumper": "^4.3"
+  }
+}
