@@ -4,8 +4,8 @@
 require_once '../vendor/autoload.php';
 
 // importation des classes
-use App\Front\Core\Container;
-use App\Front\Core\Router;
+use App\API\Core\Container;
+use App\API\Core\Router;
 
 
 // routages
@@ -26,3 +26,7 @@ $uriVars = $router->getRoute()['uriVars'];
 
 //Appel de la méthode
 $controller->$method($uriVars);
+
+// dotenv
+
+$database = $container->get('core.database');

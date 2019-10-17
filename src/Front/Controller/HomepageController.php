@@ -6,7 +6,7 @@
  * Time: 12:14
  */
 
-namespace App\API\Controller;
+namespace App\Front\Controller;
 
 
 class HomepageController extends AbstractController
@@ -16,6 +16,11 @@ class HomepageController extends AbstractController
 	 */
 	public function index(array $uriVars = [])
 	{
-		$this->render([]);
+		$date = new \DateTime();
+		
+		$this->render('homepage/index', [
+			'id' => $uriVars['id'],
+			'date' => $date->format('d/m/y'),
+		]);
 	}
 }

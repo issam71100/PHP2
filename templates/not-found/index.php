@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Homepage <?= $id ?></h1>
+
+<h1>Page Non trouvée</h1>
+
 </body>
 </html>
