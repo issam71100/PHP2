@@ -14,7 +14,7 @@
     <thead>
     <tr>
         <th>Id</th>
-        <th>Nom</th>
+        <th>Pays</th>
         <th>Capital</th>
     </tr>
     </thead>
@@ -24,7 +24,7 @@
     <tr>
         <td><?=$country->getId()?></td>
         <td><?=$country->getName()?></td>
-        <td><?=$capital->getName()?></td>
+        <td><?=$capital[$country->getId()]->getName()?></td>
     </tr>
     <?php endforeach;?>
     

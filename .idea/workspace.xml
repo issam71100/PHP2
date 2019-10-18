@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b92201f4-a734-4baf-8413-8fe12551c42d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/API/Controller/CountryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/Entity/City.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/Entity/Country.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/Migrations/AbstractMigrations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/Migrations/MainMigrations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/Migrations/Migrations20191018.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/Migrations/Migrations20191019.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/Migrations/Migrations20191020.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/Repository/CityRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/Repository/CountryRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Front/Controller/CountryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/country/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/Controller/AbstractController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/Controller/AbstractController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/Controller/HomepageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/Controller/HomepageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/Core/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/Core/Container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/Core/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Front/Core/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Front/Core/Container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Front/Core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Front/Core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/country/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/country/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,14 +51,14 @@
           <entry key="env" value="77" />
           <entry key="gitignore" value="7" />
           <entry key="json" value="24" />
-          <entry key="php" value="5824" />
+          <entry key="php" value="5830" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="77" />
           <entry key="JSON" value="24" />
-          <entry key="PHP" value="5900" />
+          <entry key="PHP" value="5906" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="SQL" value="13" />
         </counts>
@@ -118,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/country/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="89">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -358,12 +338,12 @@
       <updated>1571126057897</updated>
       <workItem from="1571126059897" duration="30633000" />
       <workItem from="1571298419730" duration="149000" />
-      <workItem from="1571383335288" duration="19854000" />
+      <workItem from="1571383335288" duration="19985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50636000" />
+    <option name="totallyTimeSpent" value="50767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -663,8 +643,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/country/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="89">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
