@@ -10,14 +10,15 @@ namespace App\API\Controller;
 
 
 use App\API\Repository\CityRepository;
+use App\API\Repository\CountryRepository;
 
-class HomepageController extends AbstractController
+class CountryController extends AbstractController
 {
-	private $cityRepository;
+	private $countryRepository;
 	
-	public function __construct(CityRepository $cityRepository)
+	public function __construct(CountryRepository $countryRepository)
 	{
-		$this->cityRepository= $cityRepository;
+		$this->countryRepository= $countryRepository;
 	}
 	
 	/**
@@ -26,7 +27,7 @@ class HomepageController extends AbstractController
 	public function index(array $uriVars = [])
 	{
 		$this->render([
-			'cities' => $this->cityRepository->findAll(),
+			'cities' => $this->countryRepository->findAll(),
 		]);
 	}
 }

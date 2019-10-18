@@ -30,3 +30,4 @@ $controller->$method($uriVars);
 // dotenv
 
 $database = $container->get('core.database');
+
